@@ -60,7 +60,7 @@ namespace ChaChat.Forms
         }
 
         /// <summary>
-        /// サーバーが稼働しているかチェックし更新
+        /// 受信したメッセージがあれば取得
         /// </summary>
         public void GetServerReceivedMessage()
         {
