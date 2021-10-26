@@ -90,7 +90,7 @@ namespace UtilityTCP
         {
             while (true)
             {
-                ReceiveMessage();
+                await Task.Run(() =>　ReceiveMessage());
             }
         }
 
